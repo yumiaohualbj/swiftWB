@@ -8,7 +8,7 @@
 
 import UIKit
 
-class WBMainViewController: UITabBarController {
+class WBMainViewController: UITabBarController{
   var composeButton:UIButton!
     
     override func viewDidLoad() {
@@ -18,11 +18,13 @@ class WBMainViewController: UITabBarController {
 
         // Do any additional setup after loading the view.
     }
+    
+    
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+//    override func supportedInterfaceOrientations()-> UIInterfaceOrientationMask{
+//    
+//        return .portrait
+//    }
     // MARK: - 监听方法
     ///撰写微博
     // FIXME:没有实现

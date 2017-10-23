@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D3192D181F98E92D00AC92C6 /* WBBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34B54DF1F20847900F453A5 /* WBBaseViewController.swift */; };
 		D32428F31F2174A600A0D142 /* UIScreen+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32428F21F2174A600A0D142 /* UIScreen+Extension.swift */; };
 		D32428F51F217AC100A0D142 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32428F41F217AC100A0D142 /* UIColor+Extension.swift */; };
 		D34B54A21F20808400F453A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34B54A11F20808400F453A5 /* AppDelegate.swift */; };
@@ -24,7 +25,6 @@
 		D34B54F91F20EB8900F453A5 /* UIBarButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34B54F81F20EB8900F453A5 /* UIBarButton+Extension.swift */; };
 		D35169291F21A8AB000743E1 /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35EADD51F21966300CEF357 /* UIBarButtonItem+Extension.swift */; };
 		D35EADD61F21966300CEF357 /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35EADD51F21966300CEF357 /* UIBarButtonItem+Extension.swift */; };
-		D35F23DC1F218C3100AC06C7 /* WBBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34B54DF1F20847900F453A5 /* WBBaseViewController.swift */; };
 		D35F23DE1F218E7400AC06C7 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35F23DD1F218E7400AC06C7 /* UIButton+Extension.swift */; };
 		D3ED9D771F2189AA0088CE1F /* WBHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34B54E11F2084E200F453A5 /* WBHomeViewController.swift */; };
 /* End PBXBuildFile section */
@@ -391,11 +391,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D35F23DC1F218C3100AC06C7 /* WBBaseViewController.swift in Sources */,
 				D34B54DE1F20843100F453A5 /* WBNavigationController.swift in Sources */,
 				D34B54F41F2093EB00F453A5 /* Bundle+Extension.swift in Sources */,
 				D34B54F71F20C66400F453A5 /* WBDemoViewController.swift in Sources */,
 				D32428F51F217AC100A0D142 /* UIColor+Extension.swift in Sources */,
+				D3192D181F98E92D00AC92C6 /* WBBaseViewController.swift in Sources */,
 				D34B54E41F2084F500F453A5 /* WBDiscoverViewController.swift in Sources */,
 				D34B54E21F2084E200F453A5 /* WBHomeViewController.swift in Sources */,
 				D35EADD61F21966300CEF357 /* UIBarButtonItem+Extension.swift in Sources */,

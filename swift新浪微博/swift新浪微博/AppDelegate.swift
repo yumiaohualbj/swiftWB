@@ -23,10 +23,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.backgroundColor = UIColor.white
         window?.rootViewController = WBMainViewController()
         window?.makeKeyAndVisible()
+        
+        
         return true
     }
 
-    
+    /*
+     portrait 竖屏
+     landscape 横屏
+     
+     */
+    //MARK: - 使用代码控制屏幕的方向
+    func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+        return .portrait
+    }
 
 }
 
