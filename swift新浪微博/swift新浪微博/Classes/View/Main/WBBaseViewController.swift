@@ -47,7 +47,9 @@ import UIKit
     
     ///加载数据->空方法 子类继承实现
     func loadData()  {
+        //如果子类不实现任何刷新方法，默认关闭刷新控件
         
+        refreshControl?.endRefreshing()
     }
     
 }
@@ -130,7 +132,10 @@ extension WBBaseViewController:UITableViewDataSource,UITableViewDelegate{
         
         if row == (count - 1) &&  !isPullup{
             //上拉刷新的判断条件
-            
+            print("上拉刷新")
+            isPullup = true
+            //开始刷新
+            loadData()
             
         }
         

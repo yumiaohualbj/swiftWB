@@ -25,12 +25,20 @@ class WBHomeViewController: WBBaseViewController {
             
         }
         for i in 0..<15 {
+            if self.isPullup {
+                //将数据追加到底部
+                statusList.append("上拉\(i)")
+            }
             ///将数据插入到数据源的顶部
             statusList.insert(i.description, at: 0)
         }
         
         //结束刷新控件
        self.refreshControl?.endRefreshing()
+        
+        //恢复上拉刷新标记
+        
+        self.isPullup = false
         
         print("刷新表格")
         //刷新表格
